@@ -41,7 +41,7 @@ function Get-ProcessMainWindowName
         Seconds how long this script will monitor
   
         .EXAMPLE
-        Set-MSOLLicenseToADGroupMembers -GroupName "Office365_E3" -License "contoso:ENTERPRISEPACK"
+        Get-ProcessMainWindowName -ProcessName "winword.exe" -TimeToMonitor 3
     #>
 
     param (
